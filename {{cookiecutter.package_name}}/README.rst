@@ -3,8 +3,8 @@
 
 {% if cookiecutter.readme_pypi_badge -%}
 .. image:: https://img.shields.io/pypi/v/{{ cookiecutter.package_name }}.svg
-    :target: https://pypi.python.org/pypi/{{ cookiecutter.package_name }}
-    :alt: Latest PyPI version
+	:target: https://pypi.python.org/pypi/{{ cookiecutter.package_name }}
+	:alt: Latest PyPI version
 {%- endif %}
 
 {% if cookiecutter.readme_travis_badge -%}
